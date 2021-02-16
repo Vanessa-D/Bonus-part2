@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Fieldset</title>
+</head>
+<body>
+    <form action="#" method="post">
+        <fieldset class="identite">
+            <legend>Votre identité</legend>
+            <ol>
+                <li>
+                    <label for="nom">Nom :</label>
+                    <input class="allo" type="text" name="nom" id="nom" placeholder="Ton nom">
+                </li>
+                <li>
+                    <label for="prenom">Prénom :</label>
+                    <input class="allo" type="text" name="prenom" id="prenom" placeholder="Ton prénom">
+                </li>
+                <li>
+                    <label for="email">Adresse mail :</label>
+                    <input class="allo" type="email" name="email" id="email" placeholder="Ton adresse mail">
+                </li> 
+            </ol>
+        </fieldset>
+        <fieldset class="livraison">
+            <legend>Adresse de livraison</legend>
+            <ol>
+                <li>
+                    <label for="adresse">Adresse :</label>
+                    <textarea name="adresse" id="adresse" cols="15" rows="5" placeholder="Ton adresse..."></textarea>
+                </li>
+                <li>
+                    <label for="cp">Code postal :</label>
+                    <input class="allo" type="text" name="cp" id="cp" placeholder="Ton code postal">
+                </li>
+                <li>
+                    <label for="ville">Ville :</label>
+                    <input class="allo" type="text" name="ville" id="ville" placeholder="Ta ville">
+                </li>
+            </ol>
+        </fieldset>
+        <fieldset class="paiement">
+            <legend>Informations de règlement</legend>
+            <ol>
+                <li>Type de carte bancaire :
+                    <div>
+                        <input type="radio" name="type_cb" id="visa">
+                        <label for="visa">VISA</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="type_cb" id="mastercard">
+                        <label for="mastercard">Mastercard</label>
+                    </div>
+                </li>
+                <li>
+                    <label for="numero_cb">Numéro de carte :</label>
+                    <input class="allo" type="text" name="numero_cb" id="numero_cb" placeholder="Ton numéro de carte">
+                </li>
+                <li>
+                    <label for="securite">Code de sécurité :</label>
+                    <input class="allo" type="text" name="securite" id="securite" placeholder="File ton code">
+                </li>
+                <li>
+                    <label for="titulaire">Nom du titulaire :</label>
+                    <input class="allo" type="text" name="titulaire" id="titulaire" placeholder="Le nom du titulaire">
+                </li>
+            </ol>
+        </fieldset>
+        <input type="submit" value="J'achète !">
+    </form>  
+</body>
+</html>

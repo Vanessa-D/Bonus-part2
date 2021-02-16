@@ -1,0 +1,26 @@
+.identite legend, .identite
+{
+    background-color: lightsteelblue;
+}
+
+.livraison legend, .livraison
+{
+    background-color: lightgray;
+}
+
+.paiement legend, .paiement
+{
+    background-color: lightslategrey;
+}
+
+li
+{
+    margin-bottom: 10px;
+}
+
+.allo
+{
+    border: none;
+    border-radius: 5px;
+    height: 25px;
+}
